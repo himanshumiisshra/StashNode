@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /* Body is transparent so the fixed -z-100 video shows through */
+  background-color: transparent; 
+  overflow-x: hidden;
+}
+
+/* Ensure Vite root doesn't have a background */
+#root {
+  background: transparent;
+}
